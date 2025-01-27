@@ -4,6 +4,10 @@
   --dark-color: #272142;
 }
 
+body {
+  font-family: "Poppins", serif;
+}
+
 h1,
 h2,
 h3,
