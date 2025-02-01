@@ -109,6 +109,10 @@ p {
   max-height: 42px;
 }
 
+.contact-links a{
+  color: var(--branding-color);
+}
+
 nav {
   padding: 20px;
 }
