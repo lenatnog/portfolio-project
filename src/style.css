@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #f9f7fe;
-  --branding-color: #6c63ff;
-  --dark-color: #272142;
+  --bg-color: #f9f7fb;
+  --branding-color: #268d94;
+  --dark-color: #17575c;
 }
 
 body {
@@ -102,7 +102,7 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 100px 60px;
 }
 
 .logo {
@@ -176,18 +176,18 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-.project-link a{
+.project-link a {
   color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 2;
+    font-size: 55px;
+    line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 25px;
   }
 
   .hero {
