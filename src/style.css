@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #f9f7fb;
-  --branding-color: #268d94;
-  --dark-color: #17575c;
+  --bg-color: #e5f1f2;
+  --branding-color: #662e9b;
+  --dark-color: #3c1a5c;
 }
 
 body {
@@ -105,12 +105,27 @@ p {
   padding: 100px 60px;
 }
 
+.add-border{
+  border: 20px solid var(--bg-color);
+  border-radius: 10px;
+}
+
 .logo {
   max-height: 42px;
 }
 
-.contact-links a{
+.contact-links a {
   color: var(--branding-color);
+}
+
+.work-links{
+  color: black;
+  text-decoration: none;
+}
+
+.work-links:hover{
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 nav {
@@ -138,6 +153,7 @@ nav a {
 nav a:hover,
 nav li.active {
   color: var(--branding-color);
+  font-weight: 500;
 }
 
 footer {
